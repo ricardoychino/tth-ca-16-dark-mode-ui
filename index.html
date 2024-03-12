@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+
+    <title>Lightz.js</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="dark">
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="header-wrapper">
+          <a href="#" class="logo">
+            <img src="assets/img/icon-logo-orange.png" alt="Logo icon" />
+            <span>lightz.js</span>
+          </a>
+          <!-- Menu -->
+          <nav id="menu">
+            <ul>
+              <li>
+                <a href="#">Documentation</a>
+              </li>
+              <li>
+                <a href="#">Github</a>
+              </li>
+              <li>
+                <a href="#">Support</a>
+              </li>
+            </ul>
+            <a href="javascript:void(0)" class="toggle-mode menu-icon-btn" data-mode="dark">
+              <i class="fa-solid fa-moon"></i>
+            </a>
+            <a href="javascript:void(0)" class="toggle-mode menu-icon-btn" data-mode="light">
+              <i class="fa-solid fa-sun"></i>
+            </a>
+            <button type="button" class="btn btn-primary">
+              Download
+            </button>
+          </nav>
+          <!-- ./Menu -->
+          <button type="button" 
+            id="nav-toggle" 
+            class="menu-icon-btn"
+            aria-expanded="false" 
+            aria-controls="menu" 
+            aria-haspopup="true">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- ./Header -->
+
+    <!-- Content -->
+    <main>
+      <!-- Hero section -->
+      <section id="hero">
+        <div class="container">
+          <div class="hero-wrapper row">
+            <div class="hero-info col">
+              <h1>
+                Welcome to <strong>Lightz.js</strong><br>
+                Illuminating Your Web Development!
+              </h1>
+              
+              <p>Are you tired of the same old, cumbersome JavaScript libraries that weigh down your web development projects? Look no further! Lightz.js is here to transform your coding experience and brighten your path to web development success.</p>
+              
+              <button type="button" class="btn btn-primary">
+                Download lightz.js
+              </button>
+            </div>
+
+            <div class="hero-image col">
+              <img src="assets/img/hero-light-mode.png" data-mode="light" alt="Light mode image" />
+              <img src="assets/img/hero-dark-mode.png" data-mode="dark" alt="Dark mode image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features section -->
+      <section id="features" class="section-secondary">
+        <div class="container">
+          <h2 class="section-heading">Features That Shine Bright:</h2>
+
+          <div class="features-list row">
+            <!-- Item -->
+            <div class="feature-item col">
+              <span class="icon-wrapper">
+                <i class="fa-solid fa-bolt"></i>
+              </span>
+              <div class="feature-content">
+                <h3>Lightning Fast</h3>
+                <p>Say goodbye to bloated libraries that slow down your websites. Lightz.js is feather-light and blazingly fast. With a minuscule footprint ...</p>
+              </div>
+            </div>
+            <!-- Item -->
+            <div class="feature-item col">
+              <span class="icon-wrapper">
+                <i class="fa-solid fa-code"></i>
+              </span>
+              <div class="feature-content">
+                <h3>Intuitive Syntax</h3>
+                <p>Coding should be fun, not a headache! Lightz.js offers an intuitive and elegant syntax that simplifies your development process. Our ...</p>
+              </div>
+            </div>
+            <!-- Item -->
+            <div class="feature-item col">
+              <span class="icon-wrapper">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+              </span>
+              <div class="feature-content">
+                <h3>Animation Toolkit</h3>
+                <p>Elevate your web design with Lightz.js's versatile animation toolkit. Create eye-catching animations effortlessly, from smooth ...</p>
+              </div>
+            </div>
+            <!-- Item -->
+            <div class="feature-item col">
+              <span class="icon-wrapper">
+                <i class="fa-solid fa-mobile-screen"></i>
+              </span>
+              <div class="feature-content">
+                <h3>Responsive Design</h3>
+                <p>Crafting responsive web designs has never been easier. Lightz.js includes a powerful set of tools to ensure your websites adapt seamlessly ...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ./Content -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <nav class="footer-nav row">
+          <ul class="col">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About us</a>
+            </li>
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">Pricing</a>
+            </li>
+            <li>
+              <a href="#">Documentation</a>
+            </li>
+          </ul>
+          <ul class="col">
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+            <li>
+              <a href="#">Support</a>
+            </li>
+            <li>
+              <a href="#">FAQs</a>
+            </li>
+            <li>
+              <a href="#">Terms of Service</a>
+            </li>
+          </ul>
+          <ul class="col">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Cookie Policy</a>
+            </li>
+            <li>
+              <a href="#">Accessibility</a>
+            </li>
+            <li>
+              <a href="#">Community</a>
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <!-- ./Footer -->
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/7e7e1c4f43.js" crossorigin="anonymous"></script>
+  </body>
+</html>
